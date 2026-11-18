@@ -1,0 +1,237 @@
+package com.example.domain
+
+object ArchetypeRepository {
+
+    val allArchetypes: List<NumberArchetype> = listOf(
+        NumberArchetype(
+            number = 1,
+            title = "Güneşin Öncüsü & Yaratıcı Kıvılcım",
+            mysticalSymbol = "☉ Birincil Işık",
+            element = "Ateş",
+            planet = "Güneş",
+            chakra = "Solar Pleksus (Manipura)",
+            crystal = "Sitrin & Güneş Taşı",
+            colorName = "Altın Sarısı",
+            accentHex = 0xFFE8BA5A,
+            summary = "Bağımsızlık, cesur başlangıçlar ve özgün irade gücü.",
+            deepMeaning = "1 sayısı evrendeki ilk yaratım nefesini ve saf iradeyi temsil eder. Bu titreşimi taşıyan ruhlar kendi yolunu çizen, yeni ufuklar açan ve başkalarına cesaret aşılayan öncülerdir. İçsel ateşiniz sizi sürekli ileriye ve özgünlüğe çağırır.",
+            strengths = listOf("Öncü liderlik", "Yüksek özgüven", "Yaratıcı inisiyatif", "Kararlı odaklanma"),
+            shadowSide = "Aşırı bireysellik, sabırsızlık veya kontrolü paylaşmakta zorlanma eğilimi.",
+            spiritualGuidance = "Gerçek güç yalnızca yönetmekten değil, kendi ışığınla başkalarının da yolunu aydınlatmaktan doğar.",
+            dailyAffirmation = "İçimdeki ilahi kıvılcıma güveniyorum; bugün cesaretle yeni ve aydınlık adımlar atıyorum.",
+            artType = SpiritualArtType.COSMOS
+        ),
+        NumberArchetype(
+            number = 2,
+            title = "Ayın Rahibesi & Kutsal Denge",
+            mysticalSymbol = "☽ İkiz Ayna",
+            element = "Su",
+            planet = "Ay",
+            chakra = "Sakral Çakra (Svadhisthana)",
+            crystal = "Ay Taşı & Selenit",
+            colorName = "İnci Gümüşü",
+            accentHex = 0xFFCBB8FF,
+            summary = "Sezgisel bilgelik, empati, uyum ve ruhsal diplomasi.",
+            deepMeaning = "2 sayısı dualitenin uyum içinde dansını ve kalbin ince frekansını simgeler. Sessizliğin içindeki mesajları duyan, insanlar ve enerjiler arasında şefkatli köprüler kuran derin bir sezgisel kapasiteye sahipsiniz.",
+            strengths = listOf("Derin sezgi", "Empatik dinleme", "Barışçıl arabuluculuk", "Zarif iş birliği"),
+            shadowSide = "Başkalarının duygularını fazla üstlenmek, kararsızlık veya sınır koymakta çekinmek.",
+            spiritualGuidance = "Başkalarına sunduğun şefkati önce kendi kalbine yönelt; içsel dengen dış dünyanın aynasıdır.",
+            dailyAffirmation = "Kalbimdeki sessiz bilgeliği duyuyorum; kendimle ve evrenle derin bir uyum içindeyim.",
+            artType = SpiritualArtType.HARMONY
+        ),
+        NumberArchetype(
+            number = 3,
+            title = "Kozmik Ozan & Neşeli İfade",
+            mysticalSymbol = "△ Kutsal Üçgen",
+            element = "Ateş & Hava",
+            planet = "Jüpiter",
+            chakra = "Boğaz Çakrası (Vishuddha)",
+            crystal = "Turkuaz & Lapis Lazuli",
+            colorName = "Safir Turkuaz",
+            accentHex = 0xFF72D6C8,
+            summary = "Sanatsal ilham, sözün büyüsü ve yaşam sevinci.",
+            deepMeaning = "3 sayısı zihin, beden ve ruhun birleşiminden doğan yaratıcı ifadeyi simgeler. Kelimelere, renklere ve seslere hayat veren bir ilham kanalısınız. Bulunduğunuz ortama ışık, mizah ve umut taşırsınız.",
+            strengths = listOf("Etkileyici ifade", "Sanatsal hayal gücü", "İlham verici neşe", "Sosyal çekim"),
+            shadowSide = "Odak dağınıklığı, duyguları yüzeyselleştirme veya onay arayışına kapılma.",
+            spiritualGuidance = "Yaratıcılığını tek bir niyet etrafında topladığında sözlerin mucizevi bir gerçeğe dönüşür.",
+            dailyAffirmation = "Ruhumun eşsiz sesini özgürce ve sevgiyle ifade ediyorum; yaratıcılığım sınırsız akıyor.",
+            artType = SpiritualArtType.SOUL
+        ),
+        NumberArchetype(
+            number = 4,
+            title = "Tapınak Mimarı & Toprak Bilgeliği",
+            mysticalSymbol = "□ Dört Yönlü Kare",
+            element = "Toprak",
+            planet = "Uranüs & Satürn",
+            chakra = "Kök Çakra (Muladhara)",
+            crystal = "Yeşim & Dumanlı Kuvars",
+            colorName = "Zümrüt Toprak",
+            accentHex = 0xFF77C89E,
+            summary = "Sağlam temeller, kutsal disiplin ve kalıcı inşa gücü.",
+            deepMeaning = "4 sayısı maddi ve manevi dünyayı bir arada tutan dört ana yönü temsil eder. Hayalleri somut gerçeğe dönüştüren sabırlı ve güvenilir bir enerjiniz var. Her taşını özenle koyduğunuz yaşamınızda kalıcı eserler bırakırsınız.",
+            strengths = listOf("Sarsılmaz güvenilirlik", "Stratejik düzen", "Sabırlı dayanıklılık", "Pratik bilgelik"),
+            shadowSide = "Değişime karşı direnç, aşırı mükemmeliyetçilik veya katı kurallara hapsolma.",
+            spiritualGuidance = "Köklerin toprağa ne kadar derinden tutunursa, dalların gökyüzüne o kadar özgürce uzanabilir.",
+            dailyAffirmation = "Adımlarım sağlam, niyetim berrak; yaşamımı sabır ve huzurla inşa ediyorum.",
+            artType = SpiritualArtType.EARTH
+        ),
+        NumberArchetype(
+            number = 5,
+            title = "Rüzgar Gezgini & Özgür Ruh",
+            mysticalSymbol = "☆ Beş Köşeli Yıldız",
+            element = "Hava & Eter",
+            planet = "Merkür",
+            chakra = "Boğaz & Kalp Köprüsü",
+            crystal = "Akuamarin & Turmalin",
+            colorName = "Gökyüzü Mavisi",
+            accentHex = 0xFF7CB8FF,
+            summary = "Değişim, keşif, çok yönlü zeka ve ruhsal özgürlük.",
+            deepMeaning = "5 sayısı evrenin sürekli devinimini ve beş duyunun ötesindeki keşif arzusunu taşır. Kalıplara sığmayan meraklı ruhunuz, farklı kültürler, fikirler ve deneyimler aracılığıyla bilgeliğe ulaşır.",
+            strengths = listOf("Hızlı adaptasyon", "Meraklı zeka", "Özgürleştirici enerji", "Cesur değişim"),
+            shadowSide = "Huzursuzluk, bağlanmaktan kaçınma veya enerjiyi anlık heveslerde tüketme.",
+            spiritualGuidance = "Gerçek özgürlük dışarıda koşmak değil, değişimin tam ortasında içsel merkezini koruyabilmektir.",
+            dailyAffirmation = "Yaşamın sunduğu tüm yenilikleri bilgelikle kucaklıyorum; özgür ve dengedeyim.",
+            artType = SpiritualArtType.COSMOS
+        ),
+        NumberArchetype(
+            number = 6,
+            title = "Kalbin Şifacısı & Venüs Uyumu",
+            mysticalSymbol = "✡ Altı Köşeli Mührü",
+            element = "Toprak & Su",
+            planet = "Venüs",
+            chakra = "Kalp Çakrası (Anahata)",
+            crystal = "Pembe Kuvars & Rodonit",
+            colorName = "Gül Kuvarsı",
+            accentHex = 0xFFE89AB8,
+            summary = "Koşulsuz sevgi, şifa, estetik ve koruyucu sorumluluk.",
+            deepMeaning = "6 sayısı kozmik anne-baba arketipini ve kalp merkezli uyumu temsil eder. Güzelliği fark eden, kırıkları onaran ve sevdikleri için güvenli bir sığınak yaratan şifalı bir varoluş frekansına sahipsiniz.",
+            strengths = listOf("Şefkatli koruyuculuk", "Estetik duyarlılık", "İyileştirici sıcaklık", "Sorumluluk bilinci"),
+            shadowSide = "Kendini ihmal ederek başkalarını kurtarmaya çalışmak veya aşırı endişelenmek.",
+            spiritualGuidance = "Kendi kabını sevgiyle doldurduğunda taşan şifa tüm çevrene doğal olarak akar.",
+            dailyAffirmation = "Sevgiyi vermeye ve almaya açığım; kalbim şifa, zarafet ve huzurla titreşiyor.",
+            artType = SpiritualArtType.HARMONY
+        ),
+        NumberArchetype(
+            number = 7,
+            title = "Mistisizm Bilgesi & İçsel Tapınak",
+            mysticalSymbol = "⚶ Yedinci Mühür",
+            element = "Su & Eter",
+            planet = "Neptün & Ketu",
+            chakra = "Taç & Üçüncü Göz",
+            crystal = "Ametist & Labradorit",
+            colorName = "Mistik Menekşe",
+            accentHex = 0xFFB896FF,
+            summary = "Derin tefekkür, ruhsal arayış, analiz ve gizli bilgelik.",
+            deepMeaning = "7 sayısı perdenin ardındaki hakikati arayan mistiğin ve filozofun sayısıdır. Yüzeydeki gürültüden çekilip sessizlikte hakikati dinlediğinizde, derin sezgisel vizyonlar ve yüksek bir ruhsal kavrayış size açılır.",
+            strengths = listOf("Analitik derinlik", "Ruhsal sezgi", "Bilgelik arayışı", "İçsel dinginlik"),
+            shadowSide = "Aşırı içe kapanma, kuşkuculuk veya dünyevi ilişkilerden kopma eğilimi.",
+            spiritualGuidance = "Sessizlikte bulduğun kadim ışığı, insanlarla paylaşacağın sade bir köprüye dönüştür.",
+            dailyAffirmation = "İçimdeki tapınakta tüm cevaplar berrak; evrenin sessiz rehberliğine güveniyorum.",
+            artType = SpiritualArtType.EARTH
+        ),
+        NumberArchetype(
+            number = 8,
+            title = "Sonsuzluk Hâkimi & Bolluk Simyası",
+            mysticalSymbol = "∞ Sonsuzluk Döngüsü",
+            element = "Toprak & Ateş",
+            planet = "Satürn",
+            chakra = "Kök & Solar Pleksus",
+            crystal = "Pirit & Kaplan Gözü",
+            colorName = "Kraliyet Kehribarı",
+            accentHex = 0xFFF0AD4E,
+            summary = "Ruhsal ve maddi denge, karizma, adalet ve tezahür gücü.",
+            deepMeaning = "8 sayısı yatay konumda sonsuzluk sembolüdür; yukarıdaki ruhsal yasalarla aşağıdaki maddi dünyanın dengesini gösterir. Büyük vizyonları yönetme, bereketi çoğaltma ve etik güç kullanma kapasitesine sahipsiniz.",
+            strengths = listOf("Yüksek tezahür gücü", "Stratejik vizyon", "Adil otorite", "Dönüştürücü dayanıklılık"),
+            shadowSide = "Güç mücadelesine girmek, başarıyı yalnızca dışsal sonuçlarla ölçmek.",
+            spiritualGuidance = "Bolluk akışı paylaşım ve adaletle birleştiğinde gerçek ruhsal hâkimiyete dönüşür.",
+            dailyAffirmation = "Evrenin sınırsız bereketiyle uyum içindeyim; gücümü bilgelik ve cömertlikle kullanıyorum.",
+            artType = SpiritualArtType.COSMOS
+        ),
+        NumberArchetype(
+            number = 9,
+            title = "Evrensel Bilge & Merhamet Işığı",
+            mysticalSymbol = "✺ Tamamlanma Çemberi",
+            element = "Ateş & Eter",
+            planet = "Mars & Neptün",
+            chakra = "Taç Çakra (Sahasrara)",
+            crystal = "Kuvars Kristali & Opal",
+            colorName = "Eflatun Altın",
+            accentHex = 0xFFE3A6FF,
+            summary = "İnsancıllık, tamamlanma, bağışlayıcılık ve ruhsal olgunluk.",
+            deepMeaning = "9 sayısı tek haneli tüm sayıların bilgeliğini içinde barındıran tamamlanma noktasıdır. Evrensel sevgi, sanat ve insanlığa hizmet duygusu ruhunuzun derinliklerinden yükselir. Eskiyi zarafetle bırakıp yeni döngülere kapı aralarsınız.",
+            strengths = listOf("Evrensel merhamet", "Bilge bakış açısı", "Sanatsal derinlik", "İlham verici fedakârlık"),
+            shadowSide = "Geçmişe tutunmak, hayal kırıklıklarını büyütmek veya sınır koymadan tükenmek.",
+            spiritualGuidance = "Bırakmayı seçtiğin her yük, evrenin sana sunacağı daha yüksek bir lütfun yerini açar.",
+            dailyAffirmation = "Geçmişi sevgiyle serbest bırakıyor, evrensel ışığın kalbimden dünyaya akmasına izin veriyorum.",
+            artType = SpiritualArtType.SOUL
+        ),
+        NumberArchetype(
+            number = 11,
+            title = "Üstat Sezgisel & Aydınlanma Kanalı",
+            mysticalSymbol = "✦ 11 İkiz Sütun",
+            element = "Hava & Işık",
+            planet = "Uranüs & Ay",
+            chakra = "Üçüncü Göz (Ajna)",
+            crystal = "Moldavit & Ametist",
+            colorName = "Elektrik Moru",
+            accentHex = 0xFFD0B3FF,
+            summary = "Üstat Sayı: Yüksek sezgi, vizyoner ilham ve ruhsal rehberlik.",
+            deepMeaning = "11, ilk Üstat Sayıdır ve göksel ilham ile yeryüzü arasındaki altın köprüyü temsil eder. Rüyalarınız, ani içgörüleriniz ve hassas algınız sıradanın ötesindedir. Varlığınız bile çevrenizdeki insanların uyanışını tetikleyebilir.",
+            strengths = listOf("Vizyoner sezgi", "Karizmatik ilham", "Ruhsal duyarlılık", "Sembolleri okuma gücü"),
+            shadowSide = "Yoğun sinir gerginliği, aşırı hassasiyet veya vizyonunu eyleme dökememe korkusu.",
+            spiritualGuidance = "Yüksek frekansını günlük topraklanma pratikleriyle (doğa, nefes, düzenli uyku) dengele.",
+            dailyAffirmation = "Yüksek rehberliğe açık, ayakları yere basan berrak bir ışık kanalıyım.",
+            artType = SpiritualArtType.COSMOS
+        ),
+        NumberArchetype(
+            number = 22,
+            title = "Üstat Mimar & Göklerin İnşacısı",
+            mysticalSymbol = "◈ 22 Kutsal Yapı",
+            element = "Toprak & Ateş",
+            planet = "Plüton & Satürn",
+            chakra = "Tüm Çakra Ekseni",
+            crystal = "Lapis & Kara Turmalin",
+            colorName = "Altın Lacivert",
+            accentHex = 0xFF8CD9CE,
+            summary = "Üstat Sayı: Büyük ruhsal idealleri somut gerçekliğe dönüştürme.",
+            deepMeaning = "22, Üstat Mimar sayısıdır; 11'in ilhamını 4'ün sağlam inşa gücüyle birleştirir. İnsanlığa kalıcı fayda sağlayacak sistemler, eserler ve topluluklar kurma potansiyeliniz yüksektir. Hayal kurmakla kalmaz, onu görünür kılarsınız.",
+            strengths = listOf("Büyük ölçekli vizyon", "Sarsılmaz pratiklik", "Kolektif liderlik", "Kalıcı miras yaratma"),
+            shadowSide = "Kendi potansiyelinin büyüklüğünden çekinmek veya aşırı sorumluluk altında ezilmek.",
+            spiritualGuidance = "Dev adımları küçük ama tutarlı günlük ritüellere böl; zaman senin en sadık müttefikindir.",
+            dailyAffirmation = "En yüce hayallerimi sabır, bilgelik ve sevgiyle yeryüzünde gerçeğe dönüştürüyorum.",
+            artType = SpiritualArtType.EARTH
+        ),
+        NumberArchetype(
+            number = 33,
+            title = "Üstat Öğretmen & Kozmik Şefkat",
+            mysticalSymbol = "❂ 33 Altın Lotus",
+            element = "Eter & Su",
+            planet = "Neptün & Venüs",
+            chakra = "Kalp & Taç Birliği",
+            crystal = "Kunzit & Berrak Kuvars",
+            colorName = "Gül Altını",
+            accentHex = 0xFFFFB7D5,
+            summary = "Üstat Sayı: Koşulsuz sevgiyle şifalandırma ve bilge öğretmenlik.",
+            deepMeaning = "33, Üstat Öğretmen frekansıdır ve 3'ün yaratıcı sözü ile 6'nın kalp şifasını taşır. Sözleriniz, sanatınız veya şefkatli duruşunuzla kolektif iyileşmeye hizmet edersiniz. Sevgiyi bilgelikle birleştiren nadir bir ruhsal olgunluğu simgeler.",
+            strengths = listOf("Derin şifa gücü", "Bilge rehberlik", "Koşulsuz merhamet", "Yaratıcı adanmışlık"),
+            shadowSide = "Dünyanın tüm acısını omuzlama hissi ve kendi sınırlarını unutmak.",
+            spiritualGuidance = "Sen bir ışık fenerisin; fener fırtınanın içine atlamaz, kıyıda sağlam durarak yol gösterir.",
+            dailyAffirmation = "Kalbimden taşan koşulsuz sevgi hem beni hem dokunduğum her ruhu şifalandırıyor.",
+            artType = SpiritualArtType.SOUL
+        )
+    )
+
+    private val archetypeMap: Map<Int, NumberArchetype> = allArchetypes.associateBy { it.number }
+
+    fun getArchetype(number: Int): NumberArchetype {
+        return archetypeMap[number] ?: archetypeMap[reduceFallback(number)] ?: allArchetypes.first()
+    }
+
+    private fun reduceFallback(number: Int): Int {
+        var n = kotlin.math.abs(number)
+        while (n > 9 && n !in setOf(11, 22, 33)) {
+            n = n.toString().sumOf { it.digitToInt() }
+        }
+        return if (n == 0) 1 else n
+    }
+}

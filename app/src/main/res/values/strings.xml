@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kozmik Sayı</string>
+    <string name="app_subtitle">Pisagor Numerolojisi &amp; Ruhsal Rehber</string>
+    <string name="brand_creators">Es&amp;Ci Akbey</string>
+    <string name="brand_instagram">konusankalpler_ea</string>
+    <string name="splash_loading_phase_1">Kozmik frekanslar uyumlanıyor…</string>
+    <string name="splash_loading_phase_2">Kadim Pisagor matrisi hazırlanıyor…</string>
+    <string name="splash_loading_phase_3">Ruhsal rehberin açılıyor…</string>
+    <string name="entry_title">Ruhsal Sayı Haritanı Oluştur</string>
+    <string name="entry_subtitle">Adını ve doğum tarihini gir; tamamen ücretsiz ve sınırsız numeroloji analizini hemen keşfet.</string>
+    <string name="online_unlimited_badge">Çevrimiçi • Sınırsız &amp; Ücretsiz Erişim</string>
+    <string name="offline_ready_badge">Çevrimdışı Hazır • Sınırsız &amp; Ücretsiz</string>
+</resources>

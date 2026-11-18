@@ -1,0 +1,6 @@
+{
+  "name": "Kozmik Sayı",
+  "description": "Spiritüel görseller ve Pisagor numerolojisi ile yaşam yolu, kader, ruh dürtüsü ve günlük enerji rehberi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
